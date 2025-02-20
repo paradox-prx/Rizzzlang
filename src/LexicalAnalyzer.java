@@ -309,7 +309,7 @@ public class LexicalAnalyzer {
             return new Token(TokenType.BOOLEAN, lex, ln);
         }
         String[] keys = {
-                "int","bool","float","char","in","out","input","output","if","else","while",
+                "int","bool","float","char","in","out","input","output",
                 "boolean","integer","decimal"
         };
         for (String k : keys) {
