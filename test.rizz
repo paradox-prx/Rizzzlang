@@ -1,0 +1,43 @@
+// This is a single-line comment
+
+/*
+  This is a multi-line comment
+*/
+
+int age
+float height
+str name
+char grade
+bool isstudent
+
+age = 20
+height = 5.9
+name = "John Doe"
+grade = 'A'
+isstudent = true
+
+in(age)
+in(name)
+out("Name is: ")
+out(name)
+out("Age is: ")
+out(age)
+
+int x
+x = 10
+int y
+y = 5
+int sum
+sum = x + y
+prod= x * y
+out("Sum is: ")
+out(sum)
+
+str greeting
+greeting = "Hello, " + name
+out(greeting)
+
+bool isadult
+isadult = age > 18
+out("Is adult? ")
+out(isadult)
