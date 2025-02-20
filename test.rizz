@@ -36,7 +36,8 @@ out(sum)
 str greeting
 greeting = "Hello, " + name
 out(greeting)
-
+prodd= x**y
+Prod=x/y
 bool isadult
 isadult = age > 18
 out("Is adult? ")
